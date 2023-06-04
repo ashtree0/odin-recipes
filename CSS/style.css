@@ -1,4 +1,15 @@
-h1 {
-    color: red;
+h1,
+h2 {
+    color: rgb(102, 22, 22);
     text-transform: uppercase;
+    text-align: center;
+}
+
+body {
+    background-color: rgba(80, 156, 191, 0.754);
+    color:rgb(102, 22, 22);
+}
+
+ul {
+    font-weight: 500;
 }
