@@ -1,5 +1,6 @@
 h1,
-h2 {
+h2, 
+h3 {
     color: rgb(102, 22, 22);
     text-transform: uppercase;
     text-align: center;
@@ -10,6 +11,14 @@ body {
     color:rgb(102, 22, 22);
 }
 
-ul {
-    font-weight: 500;
+div.ingredients,
+div.list-of-recipes {
+    list-style-position: inside;
+    text-align: center;
 }
+
+div.image {
+    display: flex;
+    justify-content: center;
+}
+
