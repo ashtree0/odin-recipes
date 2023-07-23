@@ -4,21 +4,38 @@ h3 {
     color: rgb(102, 22, 22);
     text-transform: uppercase;
     text-align: center;
+    width: 400px;
+    margin: auto;
 }
 
 body {
     background-color: rgba(80, 156, 191, 0.754);
-    color:rgb(102, 22, 22);
+    color:rgb(102, 22, 22); 
+    margin: 50px;
+    text-align: justify;
 }
 
-div.ingredients,
-div.list-of-recipes {
+div.ingredients {
     list-style-position: inside;
-    text-align: center;
+    text-align: left;
 }
+
 
 div.image {
     display: flex;
     justify-content: center;
+    margin: 20px;
 }
 
+.title {
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.recipe-list {
+    font-size: 30px;
+}
+
+.recipe-list li {
+    margin-bottom: 10px;
+}
