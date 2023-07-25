@@ -32,12 +32,17 @@ div.image {
 .title {
     font-size: 50px;
     font-family: serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .recipe-list {
     font-size: 30px;
     list-style-type: none;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .recipe-list li {
